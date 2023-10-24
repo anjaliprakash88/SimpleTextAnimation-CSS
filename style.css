@@ -1,0 +1,84 @@
+body{
+    font-family: sans-serif;
+    color: rgb(11, 11, 11);
+    margin: 0px;
+}
+h1{
+    font-size: 6rem;
+    margin: 10px;
+}
+.main
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.code-container
+{
+    display:flex;
+    align-items: center;
+    justify-self: left;
+    background-color: rgb(190, 0, 0);
+    width: 850px;
+    text-align: left;
+}
+.code-line
+{
+    opacity: 10;
+}
+.code-line::after
+{
+    content: "is lifestyle";
+    animation: code 9s linear;
+}
+@keyframes code{
+    0%
+    {
+        opacity: 0;
+        content: "is passion";
+    }
+    12%
+    {
+        opacity: 1;
+        content: "is passion";
+    }
+    24%
+    {
+        opacity: 0;
+        content: "is passion";
+    }
+    36%
+    {
+        opacity: 0;
+        content: "is struggle";
+    }
+    48%
+    {
+        opacity: 1;
+        content: "is struggle";
+    }
+    60%
+    {
+        opacity: 0;
+        content: "is struggle";
+    }
+    72%
+    {
+        opacity: 0;
+        content: "is journey";
+    }
+    84%
+    {
+        opacity: 1;
+        content: "is journey";
+    }
+    100%
+    {
+        opacity: 0;
+        content: "is journey";
+    }
+
+}
